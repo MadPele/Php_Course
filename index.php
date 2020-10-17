@@ -8,10 +8,20 @@
 <?php
 
 $name = "Pele";
+$name2 = "Mad";
+$name3 = "Invi";
+$name4 = "Horn";
 
-echo "Welcome $name" . "<br>";
+$names = array("Mad" => 123, "Pele" => 231, "Melisa" => 333, "Horn" => 112);
+foreach ($names as $key => $score){
+    echo $key . " has score " . $score . ".<br>";
+}
 
-echo "I like dogs";
+//echo "Welcome " . $names[3] . "<br>";
+//echo print_r($names);
+//echo "<br>";
+
+//echo "I like dogs";
 
 ?>
 </body>
